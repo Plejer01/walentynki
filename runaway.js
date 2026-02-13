@@ -60,3 +60,13 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener("mouseenter", moveButton);
     button.addEventListener("click", moveButton);
 });
+
+
+function delayRedirect() {
+    
+    setTimeout(function() {
+        window.location.href = "yes.html";
+    }, 1000); 
+}
+
+

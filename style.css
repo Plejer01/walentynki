@@ -49,7 +49,7 @@ body:has(.btn-heart:hover)::before {
 
 .container {
     text-align: center;
-    animation: sharpen 1s ease-out forwards;
+    animation: sharpen 2s ease-out forwards;
     background: rgba(153, 96, 110, 0.1); /* Półprzezroczysta ramka */
     padding: 40px;
     border-radius: 20px;
@@ -89,9 +89,8 @@ button {
 }
 
 
-footer {
-    
-  animation: sharpen 1s ease-out forwards;
+footer {  
+  animation: sharpen 2s ease-out forwards;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -138,7 +137,7 @@ footer p {
 .btn-heart:before {
     content: '';
     /* Gradient: Różowy -> Czerwony -> Biały -> Różowy */
-    background: linear-gradient(45deg, #FFC5D3, #ff4d4d, #ffffff, #FFC5D3, #662C39, #ff4d4d, #FFC5D3);
+    background: linear-gradient(45deg, #FFC5D3, #99606E, #662C39, #330C15, #662C39, #99606E, #FFC5D3);
     position: absolute;
     top: -2px;
     left: -2px;
